@@ -4,11 +4,11 @@ Skeletonization Methods comparison
 Skeletonization is a process used in image processing to reduce binary images to their skeletal form, preserving the structure while minimizing the amount of data. This project analyzes two popular skeletonization methods: Zhang and Lee. The aim is to implement, compare, and evaluate the effectiveness of these methods.
 
 ## Methodologies
-- Zhang Method
+- Zhang Method [1]
 
 The Zhang method, also known as the Zhang-Suen thinning algorithm, is an iterative method that progressively removes pixels from the boundaries of objects in a binary image. The goal is to preserve the topological properties of the image, such as connectivity and shape.
 
-- Lee Method
+- Lee Method [2]
 
 The Lee method is another iterative thinning algorithm designed to produce a skeleton of the image by successively removing pixels from the boundary. This method focuses on preserving the connectivity and reducing the image to a minimal representation while maintaining the essential structure.
 
@@ -57,3 +57,8 @@ The evaluation process includes:
     - Skeleton length (sum of distance between neighboring pixel along paths)
     - Ratio of skeleton size to skeleton length
     - Approximation of end points to the border of the shape
+
+## References
+[1] Abu-Ain, W., Abdullah, S. N. H. S., Bataineh, B., Abu-Ain, T., & Omar, K. (2013). Skeletonization Algorithm for Binary Images. Procedia Technology, 11, 704-709. https://doi.org/10.1016/j.protcy.2013.12.248
+
+[2] Lee, T., Kashyap, R., & Chu, C. (1994). Building Skeleton Models via 3-D Medial Surface Axis Thinning Algorithms. CVGIP. Graphical Models And Image Processing, 56(6), 462-478. https://doi.org/10.1006/cgip.1994.1042
